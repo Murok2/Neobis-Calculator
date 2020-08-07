@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-size: cover;
+    background-attachment: fixed;
+    background-color: #e0ddff;
+}
+.head{
+    width: 300px;
+    text-align: center;
+    font: bold normal 22px Arial;
+    margin: 0px auto;
+    color: white;
+}
+.container{
+    height: 406px;
+    width: 350px;
+    margin: 80px auto;
+    background-color: #275b85;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.screen{
+    height: 20px;
+    width: 300px;
+    margin: 10px;
+    padding: 16px 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+#numdisplay{
+    text-align: right;
+    font: normal normal 28px Arial;
+}
+#numdisplay span{
+	opacity: 0.5;
+}
+.keypad {
+    width: 290px;
+    height: 206px;
+    border-radius: 10px;
+    margin: 14px;
+    padding: 12px;
+
+}
+input{ 
+	height: 47px;
+    width: 65px;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 10px;
+	font: normal 30px Verdana;
+    color: darkblue;
+}
+input:hover{
+	background-color: silver;
+}
+
+.specialbuttons{
+    height: 50px;
+    width: 150px;
+    margin: 15px auto;
+
+}
+.specialbuttons input{
+    width: 143px;
+    font-size: 20px;
+    color: #005496;
+    background-color: whitesmoke;
+}
+
